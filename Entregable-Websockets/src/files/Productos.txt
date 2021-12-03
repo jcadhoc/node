@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Lapiz",
+    "price": "80",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/pencil-pen-stationery-school-256.png"
+  },
+  {
+    "id": 2,
+    "name": "Mochila",
+    "price": "1500",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-256.png"
+  },
+  {
+    "id": 3,
+    "name": "Calculadora",
+    "price": "800",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png"
+  },
+  {
+    "id": 4,
+    "name": "Libro",
+    "price": "430",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/book-note-paper-school-256.png"
+  },
+  {
+    "id": 5,
+    "name": "Birome",
+    "price": "100",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-vol-1-34/512/7_Pen_write_writer-256.png"
+  },
+  {
+    "id": 6,
+    "name": "Tijeras",
+    "price": "350",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/graphic-design-tools-5/128/_scissor-256.png"
+  },
+  {
+    "id": 7,
+    "name": "Regla",
+    "price": "320",
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/scale-filled/32/Scale__Scale_Measuring_Rule_Geometry_Size-13-256.png"
+  },
+  {
+    "id": 8,
+    "name": "Mochila 2",
+    "price": "2500",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/backpack-and-bag/512/bagpack-13-256.png"
+  }
+]
