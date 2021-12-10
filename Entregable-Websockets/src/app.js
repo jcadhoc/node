@@ -7,7 +7,7 @@ import {Server} from 'socket.io';
 import __dirname from './utiles.js';
 
 const app = express();
-const PORT = process.env.PORT||8080;
+const PORT = process.env.PORT||8082;
 const server = app.listen(PORT,()=>{
     console.log("servidor escuchando en: "+PORT);
 })

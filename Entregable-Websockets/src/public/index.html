@@ -21,6 +21,32 @@
             <button type="submit">Guardar</button>
         </form>
     </div>
+
+    <div>
+        <h1>modificar</h1>
+        <form id="productFormModify" name="productFormModify" enctype="multipart/form-data">
+            <label for="title">Nombre:</label>
+            <input name="title" required>
+            <label for="price">Precio:</label>
+            <input name="price" required>
+            <label for="thumbnail">Link de imagen:</label>
+            <input name="thumbnail" required>
+            <button type="submit">Guardar CAMBIOS</button>
+        </form>
+    </div>
+
+    <div>
+        <h1>ELIMINAR</h1>
+        <form id="productFormDelete" name="productFormDelete" enctype="multipart/form-data">
+            <label for="title">Nombre:</label>
+            <input name="title" required>
+            <label for="price">Precio:</label>
+            <input name="price" required>
+            <label for="thumbnail">Link de imagen:</label>
+            <input name="thumbnail" required>
+            <button type="submit">ELIMINAR PRODUCTO</button>
+        </form>
+    </div>
     <h1>Tabla de Productos</h1>
     <div>
         <div id="productTable"></div>
