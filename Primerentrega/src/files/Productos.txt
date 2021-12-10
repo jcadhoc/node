@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "timestamp": "6/12/2021",
+    "name": "Remera blanca",
+    "price": "1200",
+    "description": "Remera 100% algodon",
+    "codigo": "43352",
+    "stock": "100",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_787626-MLA31019293793_062019-O.jpg"
+  },
+  {
+    "id": 2,
+    "timestamp": "7/12/2021",
+    "name": "Bermuda",
+    "price": 1300,
+    "description": "Bermuda facherita",
+    "codigo": 16735,
+    "stock": 100,
+    "thumbnail": "https://pamperousointensivo.com.ar/wp-content/uploads/2018/09/bermuda-cargo_05A9366.jpg"
+  }
+]
