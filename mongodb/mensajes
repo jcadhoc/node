@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f1"
+  },
+  "message": "hola como andas",
+  "email": "juancarrerasrm@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f2"
+  },
+  "message": "Bien y vos?",
+  "email": "carlos25@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f3"
+  },
+  "message": "Todo tranquilo, que andás haciendo?",
+  "email": "juancarrerasrm@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f4"
+  },
+  "message": "Acá haciendo una entrega del curso, vos?",
+  "email": "carlos25@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f5"
+  },
+  "message": "Si yo tambien, estoy dando mongodb",
+  "email": "juancarrerasrm@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f6"
+  },
+  "message": "Yo tambien!",
+  "email": "carlos25@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f7"
+  },
+  "message": "Está bueno, encima el tutor es re buena onda",
+  "email": "juancarrerasrm@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f8"
+  },
+  "message": "Si, el mio tambien!",
+  "email": "carlos25@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1f9"
+  },
+  "message": "Tambien es muy bueno el profe",
+  "email": "juancarrerasrm@gmail.com"
+},{
+  "_id": {
+    "$oid": "61c3c381c1d285d25006d1fa"
+  },
+  "message": "Un exito!",
+  "email": "carlos25@gmail.com"
+}]

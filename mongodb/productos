@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1e7"
+  },
+  "title": "Heladera Carrier",
+  "description": "Heladera inverter",
+  "price": 70000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1e8"
+  },
+  "title": "Conservadora",
+  "description": "Ahora que se viene el veranito",
+  "price": 6000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1e9"
+  },
+  "title": "Microondas",
+  "description": "Calentate rapido la comida",
+  "price": 40000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1ea"
+  },
+  "title": "Cafetera",
+  "description": "Cafetera para arrancar la mañana con toda",
+  "price": 10000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1ec"
+  },
+  "title": "Aire acondicionado",
+  "description": "Aire acondicionado etc etc",
+  "price": 80000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1ed"
+  },
+  "title": "Termo Stanley",
+  "description": "Termo Stanley etc etc",
+  "price": 11000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1ee"
+  },
+  "title": "Lavarropas",
+  "description": "Lavarropas etc etc",
+  "price": 52000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1ef"
+  },
+  "title": "Freezer",
+  "description": "Freezer etc etc",
+  "price": 65000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c35bc1d285d25006d1f0"
+  },
+  "title": "Televisor smart",
+  "description": "Televisor smart etc etc",
+  "price": 86000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "61c3c3efc1d285d25006d1fb"
+  },
+  "title": "Monitor samsung",
+  "description": "Monitor ultra hd",
+  "price": 34675,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_781119-MLA31632168129_072019-O.jpg",
+  "stock": 0
+}]
