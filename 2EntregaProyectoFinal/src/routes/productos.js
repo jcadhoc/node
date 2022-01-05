@@ -16,28 +16,28 @@ router.get('/',(req,res)=>{
 })
 
 router.get('/:uid',(req,res)=>{
-    let id = parseInt(req.params.uid);
-    productos.getById(id).then(result=>{
-        console.log(result);
+    let id = req.params.uid;
+    let producto = productos.getById(id).then(result=>{
         res.send(result);
     })
 })
+
 //POSTS
 router.post('/',authMiddleware,(req,res)=>{
     let producto = req.body;
     if(req.auth)
-    contenedorProductos.save(producto).then(result=>{
-        res.send(result);
+    productos.saveOne(producto).then(result=>{
+        res.send({status:"success",payload: producto});
     })
 })
 
 //PUTS
 router.put('/:uid',authMiddleware,(req,res)=>{
-    let id = req.params.uid;
+    let id =req.params.uid;
     let producto = req.body;
     if(req.auth)
-    contenedorProductos.editProduct(id, producto).then(result=>{
-        res.send(result);
+    productos.updateById(id, producto).then(result=>{
+        res.status(200).send({status:"success",payload: producto});
     })
 })
 
@@ -45,7 +45,12 @@ router.put('/:uid',authMiddleware,(req,res)=>{
 router.delete('/:uid',authMiddleware,(req,res)=>{
     let id = req.params.uid;
     if(req.auth)
-    contenedorProductos.deleteById(id).then(result=>{
+    productos.deleteById(id).then(result=>{
+        res.send(result);
+    })
+})
+router.delete('/',(req,res)=>{
+    productos.deleteAll().then(result=>{
         res.send(result);
     })
 })

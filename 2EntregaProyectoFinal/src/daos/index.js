@@ -14,6 +14,13 @@ switch(persistencia){
         const {default:CarritoMongo} = await import('./carrito/carritoMongo.js');
         productos = new ProductosMongo;
         carrito = new CarritoMongo;
+        break;
+    case "firebase":
+        const {default:ProductosFirebase} = await import('./productos/productosFirebase.js');
+        const {default:CarritoFirebase} = await import('./carrito/carritoFirebase.js');
+        productos = new ProductosFirebase;
+        carrito = new CarritoFirebase;
+        break;
     default:
 
 }

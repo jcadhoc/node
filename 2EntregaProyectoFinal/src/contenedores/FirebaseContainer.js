@@ -1,16 +1,26 @@
-const admin = require('firebase-admin');
-const serviceAccount = require('../db/ecommerce-83400-firebase-adminsdk-uxq0p-a01243f663.json')
+import config from '../config.js';
+import { initializeApp } from 'firebase-admin/app'
+import { cert } from 'firebase-admin/app'
+import { getFirestore } from 'firebase-admin/firestore'
+import { createRequire } from 'module'
+import { response } from 'express';
+const require = createRequire(import.meta.url)
+const serviceAccount = require('../db/ecommerce-jr-firebase-adminsdk-x4p3d-3e5338d093.json')
 
 
-admin.initializeApp({
-    credential:admin.cert(serviceAccount),
-    databaseURL:"ecommerce-83400.firebaseio.com"
+initializeApp({
+    credential:cert(serviceAccount),
+    databaseURL: config.firebase.baseUrl
 })
-
-const db = admin.firestore();
+const db = getFirestore();
 const currentCollection = db.collection('products');
 
-saveOne() = async(object) => {
+
+export default class FirebaseCotainer { 
+
+    constructor(){}
+
+saveOne = async(object) => {
     try{
         let doc = currentCollection.doc()
         let result= await doc.create(object)
@@ -36,38 +46,30 @@ getById = async(productoId)=>{
     try {
         const doc = currentCollection.doc(productoId)
         let product = await doc.get();
-        return {status:"success",payload:product.data()}
+        return {status:"success",payload:product._fieldsProto}
     } catch (error) {
         return {status:"error", error:error}
     }
 }
 
-UpdateById = async(productoId,body)=>{
+updateById = async(productoId,body)=>{
     try {
         const doc = currentCollection.doc(productoId)
-        await doc.update(body)
-    } catch (error) {
+        let result = await doc.update(body)
+ return {status:"success",payload:result}
+} catch (error) {
         return {status:"error", error:error}
     }
 }
 
-async deleteById(productoId){
+deleteById = async(productoId) => {
     try{
         const doc = currentCollection.doc(productoId)
         await doc.delete();
-        }catch{
-            return {status:"error", message:"El id del producto es incorrecto"}
-        }
+        return{status:"success",message: "Producto eliminado correctamente!"}
     }catch{
         return{status:"error",message: "Error al eliminar el producto"}
     }
 }
+}
 
-deleteAll = async() =>{
-    try {
-         await currentCollection.drop();
-    } catch (error) {
-        return {status:"error", error:error}
-    }
-}
-}
