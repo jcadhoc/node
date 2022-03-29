@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "first_name": "Juan Ignacio",
+    "last_name": "Carreras",
+    "email": "juancarrerasrm@gmail.com",
+    "full_name": "Juan Ignacio Carreras"
+  },
+  {
+    "id": 3,
+    "first_name": "Roberto",
+    "last_name": "Scocco",
+    "email": "nob@gmail.com",
+    "full_name": "Roberto Scocco"
+  }
+]
